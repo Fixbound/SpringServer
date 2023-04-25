@@ -1,4 +1,4 @@
-FROM openjdk:19
+FROM openjdk:17
 EXPOSE 8080
 ADD target/SpringAngular-0.0.1-SNAPSHOT.jar SpringAngular-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/SpringAngular-0.0.1-SNAPSHOT.jar"]
