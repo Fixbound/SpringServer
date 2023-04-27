@@ -31,10 +31,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 @CrossOrigin(origins = {
     "https://hosting-angular-d2d74.firebaseapp.com/",
-    "https://hosting-angular-d2d74.firebaseapp.com/proyectos/add",
-    "https://hosting-angular-d2d74.firebaseapp.com/educacion/add",
-    "https://hosting-angular-d2d74.web.app/proyectos/add",
-    "https://hosting-angular-d2d74.web.app/educacion/add",
     "https://hosting-angular-d2d74.web.app"
 }
 )
